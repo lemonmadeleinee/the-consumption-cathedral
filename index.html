@@ -2,10 +2,21 @@
 <html>
 <head>
     <title>The Consumption Cathedral</title>
+    <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
 </head>
 <body>
 
     <h1>The Consumption Cathedral</h1>
-
+    
+    <script>
+        const SUPABASE_URL = "https://cethcwopmagufiskhzwz.supabase.co";
+        const SUPABASE_KEY = "sb_publishable_KUPRVn6sPPnFu38sCwOlMw_pzkUXu6P";
+    
+        const supabase = window.supabase.createClient(
+            SUPABASE_URL,
+            SUPABASE_KEY
+        );
+    </script>
+    
 </body>
 </html>

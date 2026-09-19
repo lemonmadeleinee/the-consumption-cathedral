@@ -5,8 +5,25 @@
     <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
 </head>
 <body>
+    <a href="index.html" class="logo-button">
+    <img src="mascot.png" alt="The Consumption Cathedral">
+    </a>
+    <div class="top-bar">
+    <div class="site-title">The Consumption Cathedral</div>
+    </div>
+    <div class="main-content">
+        <div class="category-menu">
+            <a href="manhua.html" class="category-button" data-category="manhua"> manhua </a>
+            <a href="manga.html" class="category-button" data-category="manga"> manga </a>
+            <a href="danmei.html" class="category-button" data-category="danmei"> danmei </a>
+            <a href="light-novel.html" class="category-button" data-category="light-novel"> light novel </a>
+        </div>
 
-    <h1>The Consumption Cathedral</h1>
+        <div class="category-image">
+            <img id="category-art" src="" alt="Category artwork">
+        </div>
+
+    </div>
     
     <script>
         const SUPABASE_URL = "https://cethcwopmagufiskhzwz.supabase.co";
@@ -17,6 +34,6 @@
             SUPABASE_KEY
         );
     </script>
-    
+
 </body>
 </html>

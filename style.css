@@ -25,7 +25,7 @@ body
   }
 .logo-button:hover 
   {
-    transform: scale(2.05);
+    transform: scale(1.5);
   }
 .logo-button img 
   {

@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Ephesis&display=swap');
 * 
   {
     box-sizing: border-box;
@@ -7,4 +8,41 @@ body
   {
     margin: 0;
     background-color: #272626;
+  }
+.logo-button 
+  {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 120px;
+    height: 120px;
+    z-index: 100;
+  }
+
+.logo-button img 
+  {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+  }
+.top-bar 
+  {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 65px;
+    background-color: #B88C9E;
+    display: flex;
+    align-items: center;
+    padding-left: 140px;
+    z-index: 50;
+  }
+
+.site-title 
+  {
+    font-family: "Ephesis", cursive;
+    font-size: 42px;
+    font-weight: 400;
   }

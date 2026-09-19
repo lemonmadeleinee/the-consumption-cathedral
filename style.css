@@ -17,13 +17,17 @@ body
     width: 75px;
     height: 75px;
     z-index: 100;
+    background-color: #272626;
+    border-radius: 5px;
+    box-shadow: 5px 5px 0 #111111;
+    overflow: hidden;
   }
 
 .logo-button img 
   {
     width: 100%;
     height: 100%;
-    object-fit: cover;
+    object-fit: contain;
     display: block;
   }
 .top-bar 
